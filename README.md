@@ -1,6 +1,6 @@
 Markov character ngrams 4. source texts a description of large language models and The Book of Genesis.
 
-First:
+live at: https://greggelong.github.io/bitic
 
 A table of next characters is made by
 
