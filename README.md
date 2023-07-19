@@ -6,18 +6,8 @@ A table of next characters is made by
 
 taking the  source texts  and looking at every four characters and making a table of the next letters that follow those four characters.
 
-``` javascript
 
-{code :  [' ', 'd', '.', ',', ' ', 'd', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r', 'r']}
- 
-```
-
-
-Second we pick a random starting point
-
-and generated the text by looking at each four characters and adding one of the possibilities from the table.
-
-1. **Choose your text:** Start by selecting a piece of text that you want to analyze and generate new text from. It could be a sentence, a paragraph, or a longer piece of writing. I am using Text from the Wikipeada on Large Language Models and  the book of Genesis 
+1. **Choose your text:** Start by selecting a piece of text that you want to analyze and generate new text from. It could be a sentence, a paragraph, or a longer piece of writing. I am using Text from the Wikipedia on Large Language Models and  the book of Genesis 
 
 2. **Divide the text into n-grams:** In this case, we'll use n-grams of four characters. Divide your text into consecutive four-character sequences. For example, if your text is "Hello, how are you?", the four-character n-grams would be "Hell," "ello," "llo,", "lo, ", "o, h", and so on.
 
